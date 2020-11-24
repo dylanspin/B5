@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/xml.css"?>
 <people>
+  <section>
+    <title>personTable</title>
+  </section>
+
+  <person>
+    <name>
+      Name
+    </name>
+    <lastName>
+      lastName
+    </lastName>
+    <gender>
+      Gender
+    </gender>
+    <hairColor>
+      HairColor
+    </hairColor>
+    <height>
+      height
+    </height>
+    <age>
+      Age
+    </age>
+  </person>
+
   <person>
     <name>
       Dylan
@@ -20,6 +46,7 @@
       18
     </age>
   </person>
+
   <person>
     <name>
       Levi

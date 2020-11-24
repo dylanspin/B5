@@ -1,0 +1,43 @@
+html{
+  margin: 0;
+  overflow-x: hidden;
+  background: #171717;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.kop{
+  position: relative;
+  top: 25px;
+  font-size: 50px;
+  text-align: center;
+}
+
+table{
+  position: relative;
+  left: 20%;
+  top: 100px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  padding: 15px;
+}
+td{
+  width: 150px;
+  height:40px;
+  font-size: 25px;
+}
+.line{
+  position: relative;
+  top: 30px;
+  left:-5%;
+  height: 5px;
+  width: 120%;
+  background:linear-gradient(118deg, #06beb6 0%, #48b1bf 100%);
+  background-size: 300%;
+  background-position: left;
+  animation: bg-animation 60s infinite;
+}
+@keyframes bg-animation {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}

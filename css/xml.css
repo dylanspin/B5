@@ -1,0 +1,32 @@
+people{
+  background: #171717;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+title{
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+}
+person{
+  position: relative;
+  left: 10%;
+  top: 100px;
+  display: block;
+  text-align: left;
+  width: 80%;
+  height: 50px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+name , lastName , gender , hairColor , height , age {
+  position: relative;
+  width: 150px;
+  top: -5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+}
