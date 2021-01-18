@@ -15,8 +15,9 @@
     <div class="line"></div>
     <table datasrc="#people" onclick="test()">
         <?php
+            echo "<?xml version='1.0' encoding='UTF-8'?>";
             $xml = simplexml_load_file("personen.xml") or die("Error");
-            
+
             for($i=0; $i<Count($xml->person); $i++)
             {
                 echo "<tr>

@@ -1,0 +1,33 @@
+html{
+  margin: 0;
+  overflow-x: hidden;
+  background: #f2ead1;
+  color: #171717;
+  font-family: 'Hachi Maru Pop', cursive;
+  width: 100%;
+}
+
+.kop{
+  position: relative;
+  top: 25px;
+  font-size: 50px;
+  text-align: center;
+}
+hr{
+  width: 70%;
+  height: 3px;
+  border: none;
+  background: #171717;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  border: none;
+  background: #171717;
+}
+.note{
+  width: 50%;
+  position: relative;
+  left: 20%;
+  margin-top: 60px;
+}

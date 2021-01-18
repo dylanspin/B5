@@ -4,7 +4,6 @@
   <section>
     <title>personTable</title>
   </section>
-
   <person>
     <name>
       Name
@@ -25,7 +24,6 @@
       Age
     </age>
   </person>
-
   <person>
     <name>
       Dylan
@@ -46,7 +44,6 @@
       18
     </age>
   </person>
-
   <person>
     <name>
       Levi
