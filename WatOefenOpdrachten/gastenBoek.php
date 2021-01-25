@@ -1,9 +1,3 @@
-<?php
-  // header("Content-type: text/xml");
-  // print_r($xml);
- ?>
-
-
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
    <head>
